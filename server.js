@@ -72,6 +72,7 @@ app.post("/api/duel", (req, res) => {
     }
   } catch (error) {
     console.log("ERROR DUELING", error);
+    rollbar.error("ERROR DUELING", error);
     res.sendStatus(400);
   }
 });
@@ -81,6 +82,7 @@ app.get("/api/player", (req, res) => {
     res.status(200).send(playerRecord);
   } catch (error) {
     console.log("ERROR GETTING PLAYER STATS", error);
+    rollbar.error("ERROR GETTING PLAYER STATS",error);
     res.sendStatus(400);
   }
 });
