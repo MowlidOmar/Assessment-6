@@ -1,18 +1,18 @@
-//const {shuffleArray} = require('./utils')
+/* const {shuffleArray} = require('./utils')
 
-//let testArr = [10, 11, 23, 45];
+let testArr = [10, 11, 23, 45];
 
-//describe('shuffleArray should', () => {
+describe('shuffleArray should', () => {
    
-    //test("shuffleArray should return array with the same length", () => {
-      //  test('should return argument length match', () => {
-           // let results = shuffleArray(testArr)
-            // expect(testArr.length).toEqual(results.length)
+    test("shuffleArray should return array with the same length", () => {
+        test('should return argument length match', () => {
+            let results = shuffleArray(testArr)
+             expect(testArr.length).toEqual(results.length)
 
  
- //})
+ })
  
-  // CODE HERE
+   CODE HERE */
 
 const { shuffleArray } = require("./utils");
 
