@@ -1,0 +1,7 @@
+Manual Test Plan:
+
+I'm playing the game and seeing if there are any obvious defect and bugs.
+
+when clicked on the "see all bots" button it does nothing and takes you nowhere.
+
+User wins are logged as losses even though the user won losses are logged as losses.
